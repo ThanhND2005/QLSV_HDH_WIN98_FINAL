@@ -154,9 +154,7 @@ public class GD_SVCungLop extends javax.swing.JFrame implements ActionListener{
     {
         if(e.getSource().equals(BackButton))
         {
-            GD_Menu_SV winD_Menu_SV = new GD_Menu_SV(sinhVien);
-            winD_Menu_SV.setLocationRelativeTo(null);
-            winD_Menu_SV.setVisible(true);
+           
             this.dispose();
         }
     }

@@ -259,9 +259,7 @@ public class GD_XemTienTrinh extends javax.swing.JFrame implements ActionListene
    
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(BackButton)) {
-            GD_Menu_SV winD_Menu_SV = new GD_Menu_SV(sv);
-            winD_Menu_SV.setLocationRelativeTo(null);
-            winD_Menu_SV.setVisible(true);
+            
             this.dispose();
         }
     }

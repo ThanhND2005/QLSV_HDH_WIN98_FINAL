@@ -11,6 +11,7 @@ SET SCHEMA PUBLIC
 INSERT INTO "SinhVien" VALUES('B21IT001','Nguyen Van A','Female','2000-01-01','D21IT01','Ha Noi','1111111','ANV.B21IT001@ptit.edu.vn','Studying','IT',1,NULL)
 INSERT INTO "TaiKhoan" VALUES('B21IT001','123')
 INSERT INTO "NhanVien" VALUES('admin','1')
+INSERT INTO "NhanVien" VALUES('admin1','1')
 INSERT INTO "TienTrinh" VALUES('B21IT001','Triet hoc Mac-Lenin',0.0E0,1,'IT')
 INSERT INTO "TienTrinh" VALUES('B21IT001','Giai tich 1',0.0E0,1,'IT')
 INSERT INTO "TienTrinh" VALUES('B21IT001','Tin hoc co so 1',0.0E0,1,'IT')

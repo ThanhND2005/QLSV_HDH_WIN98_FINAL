@@ -376,9 +376,10 @@ public class SinhVienDAO {
                       "\"Major\" = ?, " +
                       "\"School_Year\" = ? " +
                       "WHERE \"Id\" = ?";
-
+         String sql3 = "DELETE FROM \"LichHoc\" WHERE \"ID\"=?"; 
          Connection conn = null;
          PreparedStatement ps = null;
+         PreparedStatement ps1 =null;
          boolean success = false;
 
          try {
@@ -396,7 +397,10 @@ public class SinhVienDAO {
              ps.setString(9, s.getMajor());
              ps.setInt(10, s.getSchoolYear());
              ps.setString(11, s.getId()); 
-
+             
+             ps1 = conn.prepareStatement(sql3);
+             ps1.setString(1, s.getId());
+             int ex = ps1.executeUpdate();
              int rowsUpdated = ps.executeUpdate();
              if (rowsUpdated > 0) {
                  success = true;

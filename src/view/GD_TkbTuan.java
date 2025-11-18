@@ -1311,9 +1311,7 @@ public class GD_TkbTuan extends javax.swing.JFrame implements ActionListener{
 
     private void BackButtonActionPerformed(java.awt.event.ActionEvent evt) {                                           
         
-        GD_Menu_SV winD_Menu_SV = new GD_Menu_SV(sinhVien);
-        winD_Menu_SV.setLocationRelativeTo(null);
-        winD_Menu_SV.setVisible(true);
+        
         this.dispose();
     }                                          
 

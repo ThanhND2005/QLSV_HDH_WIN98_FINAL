@@ -142,7 +142,7 @@ public class GD_Menu_SV extends javax.swing.JFrame implements ActionListener{
         TenLabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         TenLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         TenLabel.setOpaque(true);
-        getContentPane().add(TenLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 233, 127, 22));
+        getContentPane().add(TenLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 230, 127, 22));
 
         MsvLabel.setBackground(new java.awt.Color(255, 255, 255));
         MsvLabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
@@ -362,35 +362,35 @@ public class GD_Menu_SV extends javax.swing.JFrame implements ActionListener{
         GD_DoiMk winD_DoiMk = new GD_DoiMk(sinhVien);
         winD_DoiMk.setLocationRelativeTo(null);
         winD_DoiMk.setVisible(true);
-        this.dispose();
+        
     }
     public void btnXemTkbClick()
     {
         GD_TkbTuan winD_TkbTuan = new GD_TkbTuan(sinhVien);
         winD_TkbTuan.setLocationRelativeTo(null);
         winD_TkbTuan.setVisible(true);
-        this.dispose();
+        
     }
     public void btnXemTthClick()
     {
         GD_XemTienTrinh winD_XemTienTrinh = new GD_XemTienTrinh(sinhVien);
         winD_XemTienTrinh.setLocationRelativeTo(null);
         winD_XemTienTrinh.setVisible(true);
-        this.dispose();
+       
     }
     public void btnDanhSachLopClick()
     {
         GD_SVCungLop winCungLop = new GD_SVCungLop(sinhVien);
         winCungLop.setLocationRelativeTo(null);
         winCungLop.setVisible(true);
-        this.dispose();
+        
     }
     public void btnDangKiMonClick()
     {
         GD_DangKiMon winD_DangKiMon = new GD_DangKiMon(sinhVien);
         winD_DangKiMon.setLocationRelativeTo(null);
         winD_DangKiMon.setVisible(true);
-        this.dispose();
+        
     }
     public void chonAnh()
     {
